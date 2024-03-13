@@ -1,0 +1,70 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+/* image size and borders */
+img {
+  border: 5px solid #6f8078;
+  width: 150px;
+  height: 150px;
+}
+/* adjusting the heading font size */
+h1, h2, h3, h4{
+  font-size: 0.7em;
+}
+h1 {
+  font-size: 2em;
+  color: #c83232;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+}
+
+/* adjusting the webpages background color  */
+body{
+  background-color: #cbcdd2;
+/* adding a border radius to the images */
+img {
+  border-radius: 10px;
+}
+
+/* styling the links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* adding padding to paragraphs */
+p {
+  padding: 10px;
+}
+  color:#ffffff;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'Serif';
+}
+/* adjusting the paragraphs text color  */
+p {
+  color:#ffffff;
+  font: "Arial";
+  font-size:18px;
+}
+/* adding gradient background */
+
+img {
+  filter: grayscale(50%);
+}
+
+/* adding style to the images */
+img {
+  box-shadow: 5px 5px 5px #fff5f5;
+  margin: 10px;
+}
+img:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
